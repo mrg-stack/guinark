@@ -5,7 +5,8 @@ modules live in `vba/src/`.
 
 ## Remote repository
 
-The private repository is https://github.com/mrg-stack/guinark.
+The public repository is https://github.com/mrg-stack/guinark.
+The v1.1 release and workbook download are also public.
 `origin` points to it, and local `main` tracks `origin/main`.
 
 On this Mac, `~/.config` is owned by root. GitHub CLI therefore uses a
@@ -36,7 +37,7 @@ git diff --cached --name-only
 git commit -m "Describe the changes"
 ```
 
-Push reviewed commits to the existing private repository:
+Push reviewed commits to the existing public repository:
 
 ```bash
 export GH_CONFIG_DIR="$HOME/Library/Application Support/gh"
