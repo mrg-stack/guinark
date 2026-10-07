@@ -1,0 +1,27 @@
+# Excel temporary and lock files
+~$*.xlsm
+~$*.xlsx
+*.tmp
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+*~
+
+# Local recovery copies; do not upload these
+backups/
+archives/
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Node.js dependencies (if tooling is added later)
+node_modules/
+
+# Environment
+.env
+.env.local
